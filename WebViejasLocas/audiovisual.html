@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Viejas Locas</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(200, 255, 189), rgb(255, 233, 233));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: #1a2418;
+            padding: 10px;
+            margin: 0;
+            color: #ace0b1;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #1a2418;
+            color: #ace0b1;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Viejas Locas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="audiovisual.html">Audiovisual</a></li>
+                <li><a href="discos.html">Discografía</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <h2><strong>Viejas Locas - Perro Guardián</strong></h2>
+        <hr>
+
+        <div class="centrado">
+            <video src="/assets/video/Viejas Locas - Perro Guardián (Video Oficial) - Contra la Pared.mp4" autoplay
+                muted controls></video>
+        </div>
+
+
+        <section class="centrado">
+            <div class="gallery">
+                <a href="/assets/img/labanda.jpg" target="_blank"> <img src="/assets/img/labanda.jpg" alt="La Banda"
+                        width="450"></a>
+
+                <div>La Banda</div>
+            </div>
+            <div class="gallery">
+                <a href="/assets/img/labanda2.jpg" target="_blank"><img src="/assets/img/labanda2.jpg" alt="La Banda"
+                        width="450"></a>
+                <div>La Banda</div>
+            </div>
+            <div class="gallery">
+                <a href="/assets/img/pity.jpg" target="_blank"><img src="/assets/img/pity.jpg" alt="La Banda"
+                        width="450"></a>
+                <div>Pity</div>
+            </div>
+            <div class="gallery">
+                <a href="/assets/img/viejaslo.jpg" target="_blank"><img src="/assets/img/viejaslo.jpg" alt="La Banda"
+                        width="450"></a>
+                <div>La Banda </div>
+            </div>
+        </section>
+
+    </header>
+
+    <footer class="footer">
+        <p>Derechos reservado &copy; 2023 </p>
+    </footer>
+</body>
+
+</html>
